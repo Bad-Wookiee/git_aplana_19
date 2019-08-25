@@ -4,6 +4,7 @@ add 'fresh'
 add 'new directory'
 add 'remaining time' = 'Перемещение файлов.Осталось __ минут.'
 add 'error' = 'Ошибка загрузки, повторите попытку' 
+add 'close'
 
 \\start: 'New_programm';
 \\open: folder 'old directory';
@@ -18,3 +19,5 @@ add 'error' = 'Ошибка загрузки, повторите попытку'
         \\show: 'fresh';
 \\else
         \\show: 'error';
+
+\\'close';
