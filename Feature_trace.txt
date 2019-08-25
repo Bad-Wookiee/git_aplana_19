@@ -1,7 +1,7 @@
-add 'trace'
-add 'copy actions'
-add 'mail' = trace@gmole.com
-add 'close'
+-add 'trace'
+-add 'copy actions'
+-add 'mail' = trace@gmole.com
+-add 'close'
 
 \\start 'trace'
          \\when start 'New_programm';
