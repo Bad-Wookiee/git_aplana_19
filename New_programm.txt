@@ -2,7 +2,7 @@ add 'New_programm'
 add 'old directory'
 add 'fresh'
 add 'new directory'
-add 'remaining time' = 'Осталось __ минут'
+add 'remaining time' = 'Перемещение файлов.Осталось __ минут.'
 add 'error' = 'Ошибка загрузки, повторите попытку' 
 
 \\start: 'New_programm';
