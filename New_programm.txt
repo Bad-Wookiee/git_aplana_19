@@ -1,6 +1,18 @@
-\\open: folder 'old directory'
+add 'old directory'
+add 'new directory'
+add 'remaining time' = 'Осталось __ минут'
+add 'error' = 'Ошибка загрузки, повторите попытку' 
+
+
+\\open: folder 'old directory';
 
 \\select: tag <new files> as 'fresh'
-        \\move: 'fresh' to 'new directory'
+        \\move: 'fresh' to 'new directory';
 
-\\show: 'remaining time'
+\\show: 'remaining time';
+
+\\if done
+        \\open: folder 'new directory';
+
+\\else
+        \\show: 'error';
