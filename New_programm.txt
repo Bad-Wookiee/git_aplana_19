@@ -1,10 +1,10 @@
-add 'New_programm'
-add 'old directory'
-add 'fresh'
-add 'new directory'
-add 'remaining time' = 'Перемещение файлов.Осталось __ минут.'
-add 'error' = 'Ошибка загрузки, повторите попытку' 
-add 'close' = 'Завершение программы.'
+-add 'New_programm'
+-add 'old directory'
+-add 'fresh'
+-add 'new directory'
+-add 'remaining time' = 'Перемещение файлов.Осталось __ минут.'
+-add 'error' = 'Ошибка загрузки, повторите попытку' 
+-add 'close' = 'Завершение программы.'
 
 \\start: 'New_programm';
 \\open: folder 'old directory';
