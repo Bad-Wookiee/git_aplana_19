@@ -5,6 +5,7 @@
 -add 'remaining time' = 'Перемещение файлов.Осталось __ минут.'
 -add 'error' = 'Ошибка загрузки, повторите попытку' 
 -add 'close' = 'Завершение программы.'
+-add 'changhed' = 'Кол-во перемещенных файлов'
 
 \\start: 'New_programm';
 \\open: folder 'old directory';
@@ -16,7 +17,8 @@
 
 \\if done
         \\open: folder 'new directory'
-        \\show: 'fresh';
+        \\show: 'fresh'
+        \\show: 'changed';
 \\else
         \\show: 'error';
 
