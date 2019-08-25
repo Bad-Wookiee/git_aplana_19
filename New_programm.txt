@@ -1,2 +1,6 @@
-select new files
- output to new directory
+\\open: folder 'old directory'
+
+\\select: tag <new files> as 'fresh'
+        \\move: 'fresh' to 'new directory'
+
+\\show: 'remaining time'
