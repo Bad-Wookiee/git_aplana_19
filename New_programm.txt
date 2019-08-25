@@ -8,13 +8,13 @@ add 'error' = 'Ошибка загрузки, повторите попытку'
 \\start: 'New_programm';
 \\open: folder 'old directory';
 
-\\select: tag <new files> as 'fresh' in 'old directory';
+\\select: tag <new files> as 'fresh' in 'old directory'
         \\move: 'fresh' to 'new directory';
 
 \\start: 'remaining time';
 
 \\if done
-        \\open: folder 'new directory';
-        \\show: 'fresh'
+        \\open: folder 'new directory'
+        \\show: 'fresh';
 \\else
         \\show: 'error';
