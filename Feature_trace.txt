@@ -1,0 +1,9 @@
+add 'trace'
+add 'copy actions'
+add 'mail' = trace@gmole.com
+
+\\start 'trace'
+         \\when start 'New_programm';
+
+\\start 'copy actions'
+         \\send to 'mail';
